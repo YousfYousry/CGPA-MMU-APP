@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CGPA MMU</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">zlFeFH979kL8PCQVAK6gGe0rYRZqp9qqDXpBztES</string>
+    <string name="back4app_client_key">8GpsVxCKX869TEpcbtCo2WRQifcBzQjtQ9NklY7y</string>
+    <string-array name="Grades">
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="GradesForManually">
+        <item>-</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="GradesForManuallyMPU">
+        <item>-</item>
+        <item>PS</item>
+        <item>FL</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>Year</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+    </string-array>
+    <string-array name="Intake">
+        <item>Intake</item>
+        <item>     June      Intake (Trimester 1)</item>
+        <item>    October    Intake (Trimester 2)</item>
+        <item>February/March Intake (Trimester 3)</item>
+    </string-array>
+    <string name="title_activity_cgpa_and__grades_calc">Cgpa_and_Grades_calc</string>
+    <string name="title_activity_grades_and_gpa_calc">grades_and_gpa_calc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/blues"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:onClick="contactMe"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/buttonbackgroundgreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Contact the developer"
+                android:textColor="#000000" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#00FFFFFF"
+                android:onClick="setMan"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/buttonbackgroundblue" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Set manually"
+                android:textColor="#000000" />
+
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF"
+            android:onClick="skip"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/skip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cgpammu.setGradesManually">
+
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/blue" />
+
+    <ListView
+        android:id="@+id/setGradesForMarks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/imageButton8"/>
+
+
+    <FrameLayout
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/entered"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"
+            android:onClick="finish"
+            app:srcCompat="@drawable/long2" />
+
+        <TextView
+            android:id="@+id/EnterBText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="ENTER"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+</RelativeLayout>

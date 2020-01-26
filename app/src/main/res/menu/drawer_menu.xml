@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Planner"
+            android:icon="@drawable/daily_tasks"
+            android:title="Planner" />
+        <item
+            android:id="@+id/nav_Calculator"
+            android:icon="@drawable/maths"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/elearning"
+            android:title="Course Structure" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_goal"
+                android:icon="@drawable/target"
+                android:title="Set Goal" />
+            <item
+                android:id="@+id/nav_Upload"
+                android:icon="@drawable/file"
+                android:title="Upload Result" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/smartphone"
+                android:title="Found a bug" />
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/sign_out"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
